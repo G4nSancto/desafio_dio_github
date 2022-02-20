@@ -1,0 +1,40 @@
+baseados nos vídeos do desafio (com detalhes a mais)
+
+1- Criar uma pasta na sua máquina com o nome de sua
+preferência e iniciar o Git Bash dentro dela (para que
+você não tenha que chegar nela manualmente pelo Git Bash)
+
+2- Depois de criado a pasta vá no seu perfil do GitHub e
+crie um novo repositório com arquivo README.md incluído
+(não é completamente necessário criar com o README.md
+incluído pois é possível acrescentá-lo depois na sua
+máquina manualmente)
+
+3- Em seguida copie o link https do repositório e cole-o
+no Git Bash usando: git clone <link https>
+(pode também ser feito por chaves SSH ou GitHub CLI)
+
+4- Após ter clonado o repósitorio em sua máquina você
+poderá fazer alterações antes não possíveis pelo GitHub,
+após serem feitas essas alterações, usando o: git status
+no Git Bash, poderá ser visto que novos arquivos foram
+acrescentados ou mudados ou deletados da sua pasta
+
+5- Tendo feito essas alterações você tera q usar o:
+git add .
+ou git add *
+ou git add -A; para passar todos os arquivos alterados
+para a area "stage"
+
+6- Estando todas as alterações na area de "staging" e
+confirmando com git status, você comita os arquivos
+usando: git commit -m <"texto">
+
+7- Depois de devidamente comitados e confirmado o
+processo pelo git status você precisa "empurrar"(push)
+o seu repositório de volta para o GitHub através do:
+git push origin main
+
+8- Após isso seu repositório será atualizado no GitHub e
+tudo o que você precisa pra ver é dar um f5 na página do
+GitHub
